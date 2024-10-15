@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        body{
+            border:2px solid black;
+            width:44%;
+            margin:12px auto;
+            
+        }
+        .reg{
+            display:block;
+            width:44%;
+            margin:12px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="reg">
+    <h1>Registration Form</h1>
+    Name:<input name="name" placeholder="enter your name"><br/>
+    Email-id:<input name="email" type="email" placeholder="enter your email id"><br>
+    password:<input name="password" type="password" placeholder="enter your password"><br>
+    phone no.:<input name="phno" type="number" placeholder="enter your phone number"><br>
+    DOB:<input name="dob" type="Date"><br>
+    Address:<br><textarea name="addr" placeholder="enter your address" rows="5" cols="10" type="text"></textarea><br>
+    Languages Known:Telugu<input type="checkbox" name="telugu">
+    Hindi<input type="checkbox" name="hindi">
+    English<input type="checkbox" name="english">
+    Kannada<input type="checkbox" name="kannada"><br>
+    Gender:<input type="radio" name="gender">Male
+   <input type="radio" name="gender">Female<br>
+   <button type="submit">Submit</button>&nbsp; &nbsp;&nbsp;<button type="reset">Reset</button>
+    </div>
+</body>
+</html>
